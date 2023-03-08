@@ -1,0 +1,14 @@
+.botao-acao{
+    border: 0;
+    background-color: var(--amarelo);
+
+    padding: 2em;
+
+    font-family: 'txt-botao';
+    color: var(--branco);
+    text-transform: uppercase;
+}
+
+.botao-acao:hover{
+    background-color: var(--azul);
+}
