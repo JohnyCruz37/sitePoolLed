@@ -1,10 +1,11 @@
 import React from "react";
-import Botao from "../Atomos/botaoAcao/Botao";
+import Header from "../componentes/Header/Header";
 
 const Home = () => {
     return (
         <div>
-            <Botao texto="Orçamento"/>
+          <Header/> 
+          <h3>home</h3>
         </div>
     )
 }
