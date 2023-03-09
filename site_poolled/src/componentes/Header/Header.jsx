@@ -6,9 +6,9 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div>
-            <BarraNav/>
-        </div>
+        <header className="topo">
+            <BarraNav />
+        </header>
     )
 }
 

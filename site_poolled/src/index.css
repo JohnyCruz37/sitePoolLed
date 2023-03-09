@@ -37,15 +37,16 @@
 
 
 /* ESTILO PADRÃO DOS ELEMENTOS */
+/* MOBILE */
 
 h1 {
     font-family: 'h1';
-    font-size: 7em;
+    font-size: 2.8em;
 }
 
 h2 {
     font-family: 'h2';
-    font-size: 2.5em;
+    font-size: 2.1em;
 }
 
 /* texto da menu */
@@ -53,7 +54,7 @@ p,
 h5,
 a {
     font-family: 'p-menu';
-    font-size: 1em;
+    font-size: .9em;
     color: var(--cinza);
 }
 
