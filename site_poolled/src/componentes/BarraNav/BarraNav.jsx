@@ -1,51 +1,33 @@
 import React from "react";
 import { Link } from "react-router-dom"
-
-
-import ItemMenu from "../../Atomos/ItemMenu/ItemMenu";
-
-import logo from '../../img/logo.png'
-
 import './BarraNav.css'
+import { Navbar, Nav, Container, NavDropdown, Button } from "react-bootstrap"
 
-const Navbar = () => {
+import logoMenu from "../../img/logo.png"
+
+const BarraNav = () => {
 
     return (
-        <div>
-            <nav className="navbar navbar-expand-lg fixed-top" id="navbar">
-                <div className="container py-3">
-                    <Link to="#" className="navbar-brand">
-                        <img src={logo} alt="logo da empresa" className="img-logo" />
-                    </Link>
-                    <button
-                        className="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbar"
-                        aria-controls="navbar-items"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <i className="bi bi-list"></i>
-                    </button>
-
-                    {/* BARRA DE NAVEGAÇÃO */}
-                    <div className="collapse navbar-collapse" id="navbar-items">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-
-                            <ItemMenu link="/" texto="home" className="Active" />
-                            <ItemMenu link="/sobre" texto="sobre" />
-                            <ItemMenu link="/servicos" texto="serviços" />
-                            <ItemMenu link="/galeria" texto="galeria" />
-                            <ItemMenu link="/contato" texto="contato" />
-
-
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
+        <>
+            <Navbar collapseOnSelect expand="md" bg="light">
+                <Container>
+                    <Navbar.Brand href="#">
+                        <img src={logoMenu} alt="logo da empresa" width="80" height="80" />
+                    </Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav" >
+                        <Nav className="me-auto me-2 me-lg-0">
+                            <Link to="/"><Button> <h5> home </h5> </Button></Link>
+                            <Link to="/sobre"><Button> <h5> sobre </h5> </Button></Link>
+                            <Link to="/servicos"><Button> <h5> serviços </h5> </Button></Link>
+                            <Link to="#"><Button> <h5> produtos </h5> </Button></Link>
+                            <Link to="/contato"><Button> <h5> contato </h5> </Button></Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
+        </>
     )
 }
 
-export default Navbar;
+export default BarraNav;
