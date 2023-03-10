@@ -6,6 +6,8 @@
     background-color: #ffffff00;
     margin: 0;
     padding: 0;
+
+    z-index: 9;
 }
 
 .container-nav {
@@ -18,7 +20,11 @@
 
 .nav-icone {
     background-color: var(--amarelo);
+    width: 2em;
+    height: 2em;
+
     margin: 1em;
+    padding: 0;
 }
 
 .barra-nav-itens {
@@ -45,14 +51,11 @@
 }
 
 .texto-link:hover {
-    color: var(--azul)
+    color: var(--azul);
 }
 
 
 /* MOBILE */
-
-@media(min-width:700px) {
-    .btn-orcamento {
-        display: block;
-    }
+@media screen and (min-width: 700px) {
+  
 }

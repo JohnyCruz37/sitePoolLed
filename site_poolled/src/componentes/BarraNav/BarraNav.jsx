@@ -15,7 +15,7 @@ const BarraNav = () => {
             <Navbar collapseOnSelect expand="lg" className="barra-nav">
                 <Container className="container-nav">
                     <Navbar.Brand href="#">
-                        <img src={logoMenu} alt="logo da empresa" width="80" height="80" className="img-logo" />
+                        <img src={logoMenu} alt="logo da empresa" width="60" height="60" className="img-logo" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" className="nav-icone" />
                     <Navbar.Collapse id="responsive-navbar-nav">
@@ -28,7 +28,7 @@ const BarraNav = () => {
                         </Nav>
                     </Navbar.Collapse>
                     <Container className="btn-orcamento">
-                        <Botao texto="Orçamento" />
+                        <Botao texto="Orçamento"/>
                     </Container>
                 </Container>
             </Navbar>
