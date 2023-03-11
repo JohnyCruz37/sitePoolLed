@@ -1,9 +1,10 @@
 import React from "react";
+import Header from "../componentes/Header/Header";
 
 const Sobre = () => {
     return (
         <div>
-          <h3>Sobre</h3>
+          <Header titulo="sobre" />
         </div>
     )
 }

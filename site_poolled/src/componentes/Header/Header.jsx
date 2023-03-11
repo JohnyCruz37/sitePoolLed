@@ -1,20 +1,13 @@
 import React from "react";
 
-import BarraNav from "../BarraNav/BarraNav";
-import Botao from "../../Atomos/botaoAcao/Botao"
-
-import imgTopo from "../../img/header.jpg"
-
 import './Header.css'
 
-const Header = () => {
+const Header = (props) => {
     return (
-        <header className="topo">
-            <div className="fundo-branco">
-                <BarraNav />
-                <div className="titulo">
-                    <h1>summer is coming come get a pool</h1>
-                    <Botao texto="Leia Mais" />
+        <header className="header-topo">
+            <div className="fundo-azul">
+                <div className="header-titulo">
+                    <h1> {props.titulo} </h1>
                 </div>
             </div>
         </header>

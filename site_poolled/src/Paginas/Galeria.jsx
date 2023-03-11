@@ -1,9 +1,10 @@
 import React from "react";
+import Header from "../componentes/Header/Header";
 
 const Galeria = () => {
     return (
         <div>
-            <h3>Galeria</h3>
+            <Header titulo="Galeria" />
         </div>
     )
 }

@@ -1,9 +1,10 @@
 import React from "react";
+import Header from "../componentes/Header/Header";
 
 const Servicos = () => {
     return (
         <div>
-            <h3>Serviços</h3>
+            <Header titulo="serviços" />
         </div>
     )
 }
