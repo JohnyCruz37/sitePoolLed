@@ -14,13 +14,13 @@ const BarraNav = () => {
         <>
             <Navbar collapseOnSelect expand="lg" className="barra-nav">
                 <Container className="container-nav">
-                    <Navbar.Brand href="#">
+                    <Navbar.Brand href="/">
                         <img src={logoMenu} alt="logo da empresa" width="60" height="60" className="img-logo" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" className="nav-icone" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="barra-nav-itens">
-                            <ItemMenu item="home" link="/" />
+                            <ItemMenu item="home" link="/" active />
                             <ItemMenu item="sobre" link="/sobre" />
                             <ItemMenu item="serviços" link="/servicos" />
                             <ItemMenu item="galeria" link="/galeria" />

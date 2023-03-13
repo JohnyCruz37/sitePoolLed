@@ -1,5 +1,7 @@
 import React from "react";
 
+import Onda from '../../Atomos/Onda/Onda'
+
 import './Header.css'
 
 const Header = (props) => {
@@ -9,6 +11,7 @@ const Header = (props) => {
                 <div className="header-titulo">
                     <h1> {props.titulo} </h1>
                 </div>
+                <Onda/>
             </div>
         </header>
     )

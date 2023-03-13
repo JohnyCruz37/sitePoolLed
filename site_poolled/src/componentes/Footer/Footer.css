@@ -1,0 +1,25 @@
+.rodape{
+    width: 100%;
+    text-align: center;
+}
+
+.rodape-contato{
+    background-image: url('../../img/footer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.rodape-contato h2,
+.rodape-contato p{
+    color: #fff;
+}
+
+.fundo-escuro{
+    padding: 2em;
+    background-color: rgba(8, 8, 8, 0.745);
+}
+
+.rodape-direitos{
+    padding: 1em;
+}

@@ -5,6 +5,7 @@
     padding: 1em 2em;
 
     font-family: 'txt-botao';
+    font-size: .6em;
     color: var(--branco);
     text-transform: uppercase;
 }

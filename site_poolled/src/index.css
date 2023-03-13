@@ -50,20 +50,15 @@ h1 {
 
 h2 {
     font-family: 'h2';
-    font-size: 2.1em;
+    font-size: 1.7em;
 }
 
 /* texto da menu */
 p,
-h5,
 a {
     font-family: 'p-menu';
     font-size: .9em;
     color: var(--cinza);
-}
-
-h5 {
-    text-transform: uppercase;
 }
 
 a {

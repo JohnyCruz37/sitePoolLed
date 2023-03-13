@@ -1,4 +1,31 @@
-.item-link{
-    border: 1px solid;
-   
+.barra-nav-item {
+    border-bottom: .5px solid #b9bab9b4;
+    margin: 0;
+    padding: 0;
+
+}
+
+.barra-nav-item:hover h5 {
+    color: var(--azul);
+}
+
+
+/* TAG LINK */
+.link-item {
+    /* border: 1px solid; */
+    display: block;
+    width: 100%;
+    padding: 1em 0 1em 1em;
+}
+
+/* TAG H5 */
+.texto-link {
+    /* border: 1px solid; */
+    display: inline-block;
+
+    margin: 0;
+    padding: 0;
+
+    transition: .3s;
+
 }

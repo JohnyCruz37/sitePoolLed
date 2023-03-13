@@ -10,7 +10,7 @@ const ItemMenu = (props) => {
     return (
         <>
             <Nav.Link eventKey={props.link} className="barra-nav-item" to={props.link} >
-                <Link to={props.link}>
+                <Link to={props.link} className="link-item">
                     <h5 className="texto-link">
                         {props.item}
                     </h5>

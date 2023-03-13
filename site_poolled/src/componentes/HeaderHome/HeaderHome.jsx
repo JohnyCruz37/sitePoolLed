@@ -1,6 +1,7 @@
 import React from "react";
 
 import Botao from "../../Atomos/botaoAcao/Botao"
+import Onda from "../../Atomos/Onda/Onda";
 
 import './HeaderHome.css'
 
@@ -12,6 +13,7 @@ const HeaderHome = () => {
                     <h1>summer is coming come get a pool</h1>
                     <Botao texto="Leia Mais" />
                 </div>
+                    <Onda/>
             </div>
         </header>
     )
